@@ -45,3 +45,11 @@ a { color: var(--link); }
 nav { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; color: var(--muted); }
 .en { margin-top: 36px; padding-top: 8px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
 .en h2 { color: var(--ink); font-size: 18px; }
+/* La guida (guida.html): l'indice e le fotografie delle schermate */
+nav.toc { margin: 16px 0 8px; padding: 0; border: 0; font-size: 16px; color: var(--ink); }
+nav.toc ol { margin: 0; padding-left: 1.4em; }
+@media (min-width: 620px) { nav.toc ol { columns: 2; column-gap: 32px; } }
+figure { margin: 18px 0 26px; }
+figure img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+figcaption { margin-top: 6px; font-size: 14px; color: var(--muted); }
+.guide-link { margin: 20px 0; padding: 14px 18px; border-radius: 12px; background: color-mix(in srgb, var(--mark) 22%, transparent); }
